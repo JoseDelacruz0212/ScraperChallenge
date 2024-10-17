@@ -22,5 +22,22 @@ Para este proyecto instalaremos 2 dependencias. Para ello, en la consola ingresa
 pip install beautifulsoup4
 pip install requests
 ```
+# Guía para Choco: Proyecto base Web Scraper
+
+### 1. Ingresar a powershell
+### 2. Ejecutar el siguiente comando
+```bash
+set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+### 3. Una vez instalado, ejecutar el siguiente comando.
+```bash
+choco install python38
+```
+### 4. Instalar dependencias con los siguintes comandos
+
+```bash
+pip install beautifulsoup4
+pip install requests
+```
 
 #### Listo! El proyecto base ha sido creado ;)
